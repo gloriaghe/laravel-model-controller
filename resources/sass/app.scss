@@ -19,7 +19,7 @@ body{
         margin-bottom: 30px;
         font-size: 40px;
             font-weight: bolder;
-            color: #01233b;
+            color: white;
     }
     .card{
         display: flex;
@@ -27,10 +27,13 @@ body{
         justify-content: center;
         width: 30%;
         height: 250px;
-        background-color: #2a6f97;
         margin-bottom: 30px;
         margin-right: 2%;
         text-align: center;
+        background-clip: padding-box;
+        border: solid 5px transparent;
+        border-radius: 1em;
+        background: linear-gradient(to right, #51a1d0, #1c5474);
 
         h2{
             color: #013a63;
