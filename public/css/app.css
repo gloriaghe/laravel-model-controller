@@ -1,0 +1,23 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#containercard {
+  color: rgb(236, 236, 115);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#containercard .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+}
+
+#containercard .card h1 {
+  color: white;
+}
+
