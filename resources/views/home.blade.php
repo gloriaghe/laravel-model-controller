@@ -5,17 +5,17 @@
 @section('pageMain')
 
 <section id="containercard">
-
-<div class="card">
+    <h1>I tuoi Film:</h1>
     @foreach ($movies as $movie)
+<div class="card">
     <h2>{{$movie->title}}</h2>
-    <span>{{$movie->original_title}}</span>
-    <span>{{$movie->nationality}}</span>
-    <span>{{$movie->date}}</span>
-    <span>{{$movie->vote}}</span>
+    <span>Titolo originale: {{$movie->original_title}}</span>
+    <span>Nazionalità: {{$movie->nationality}}</span>
+    <span>Data: {{$movie->date}}</span>
+    <span>Voto: {{$movie->vote}}</span>
 
-    @endforeach
 </div>
+    @endforeach
 
 </section>
 
